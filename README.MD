@@ -196,7 +196,7 @@ propias facturas pendientes.
 </td>
 <td width="33%">
 
-**Expresion de la condicion**
+**Expresion de la condicion para la matriz**
 <img src="03-alerta-semanal/condicion-correo-unico-2.png" width="100%">
 
 </td>
