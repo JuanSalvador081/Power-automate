@@ -1,4 +1,4 @@
-# 🔄 Automatización de Procesos de Facturación con Power Automate
+# Automatización de Procesos de Facturación con Power Automate
 
 Recreación personal (con datos ficticios) de un sistema de automatización de
 gestión documental desarrollado originalmente durante mi experiencia como
@@ -7,13 +7,13 @@ la lógica real aplicada en un entorno de cliente, usando datos y una cuenta
 propia para poder mostrar el trabajo libremente, sin comprometer información
 confidencial del cliente original.
 
-## 📌 Contexto
+## Contexto
 
 El sistema gestiona un flujo de facturación end-to-end: desde la ingesta
 dinámica de datos hasta el seguimiento operativo y la generación de reportes,
 usando **Power Automate**, **SharePoint** y **Excel**.
 
-## 🔧 Flujos incluidos
+## Flujos incluidos
 
 ### 1. Ingesta dinámica de datos + permisos por elemento
 Extrae filas desde una tabla de Excel, valida duplicados antes de crear cada
@@ -21,29 +21,29 @@ elemento en una lista de SharePoint, y asigna permisos de forma dinámica al
 responsable de cada factura (rompiendo la herencia de permisos y otorgando
 acceso individual mediante llamadas HTTP a la API REST de SharePoint).
 
-📁 [`capturas/01-ingesta`](capturas/01-ingesta)
+[`capturas/01-ingesta`](capturas/01-ingesta)
 
 ### 2. Notificación automática por cambio de estado
 Detecta cuando una factura cambia de estado de "Pendiente" a "Válido" y
 envía una notificación automática.
 
-📁 [`capturas/02-notificacion-estado`](capturas/02-notificacion-estado)
+[`capturas/02-notificacion-estado`](capturas/02-notificacion-estado)
 
 ### 3. Alerta semanal de facturas pendientes
 Flujo programado que revisa semanalmente las facturas sin resolver y envía
 un resumen consolidado.
 
-📁 [`capturas/03-alerta-semanal`](capturas/03-alerta-semanal)
+[`capturas/03-alerta-semanal`](capturas/03-alerta-semanal)
 
 ### 4. Versionado mensual con exportación a Excel
 Consolida mensualmente los registros del período y genera un archivo Excel
 con el historial de datos para trazabilidad.
 
-📁 [`capturas/04-versionado-mensual`](capturas/04-versionado-mensual)
+[`capturas/04-versionado-mensual`](capturas/04-versionado-mensual)
 
 ---
 
-## 🖼️ Vista general
+## Vista general
 
 ### Flujo 1 — Ingesta y permisos
 ![Flujo completo](/01-ingesta/flujo-completo.png)
@@ -73,11 +73,11 @@ con el historial de datos para trazabilidad.
 ![Excel que se genero](04-versionado-mensual/excel-generado.png)
 ---
 
-## 🛠️ Stack
+## Stack
 
 Power Automate · SharePoint (API REST) · Excel Online · Power Platform
 
-## 📝 Nota
+## Nota
 
 Los datos de facturas, proveedores y responsables mostrados son **ficticios**,
 creados exclusivamente para esta demostración. La lógica y arquitectura de
