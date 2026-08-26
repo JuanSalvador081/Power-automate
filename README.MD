@@ -16,6 +16,9 @@ confidencial del cliente original.
 - [Flujo 4: Versionado mensual](#flujo-4--versionado-mensual-con-exportación-a-excel)
 - [Stack](#-stack)
 
+
+>Haz click en la imagen para verla en tamaño completo.
+
 ## Contexto
 
 El sistema gestiona un flujo de facturación end-to-end: desde la ingesta
