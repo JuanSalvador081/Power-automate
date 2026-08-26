@@ -196,7 +196,7 @@ propias facturas pendientes.
 </td>
 <td width="33%">
 
-**Correo ya existe en la matriz**
+**Expresion de la condicion**
 <img src="03-alerta-semanal/condicion-correo-unico-2.png" width="100%">
 
 </td>
@@ -221,7 +221,7 @@ propias facturas pendientes.
 </td>
 <td width="25%">
 
-**Match: factura de otro responsable**
+**Expresion de la condicion para la factura del responsable**
 <img src="03-alerta-semanal/condicion-facturas-gestor-2.png" width="100%">
 
 </td>
